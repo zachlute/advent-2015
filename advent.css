@@ -1,0 +1,189 @@
+
+html {
+  background: url(images/snow.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: black;
+  background-color: white;
+}
+
+body {
+	font:1em/1.4 Verdana, Arial, Helvetica, sans-serif;
+	height: 100%;
+	margin: 0px;
+}
+
+#header {
+	background: rgb(255, 255, 255); /* Fallback */
+  background: rgba(255, 255, 255, 0.8);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#footer {
+	background: rgb(0, 0, 0); /* Fallback */
+  background: rgba(0, 0, 0, 0.8);
+}
+
+#content {
+	min-height: 100%;
+	min-width: 570px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	width: 80%;
+	margin: auto;
+	background: rgb(255, 255, 255); /* Fallback */
+  background: rgba(255, 255, 255, 0.9);
+}
+
+#days {
+	float: left;
+}
+
+#nav {
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#navback {
+	display: table-cell;
+}
+
+#navtop {
+	display: table-cell;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#navforward {
+	display: table-cell;
+	text-align: right
+}
+
+h1#title {
+	color: gray;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.author {
+	color: gray;
+	font-size: 14px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.bible {
+	color: darkviolet;
+}
+
+a {
+	color: blue;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	max-height: auto;
+}
+
+ol#calendar {
+	width:52em;
+	margin:0 auto;
+	display:block;
+	min-height: 200px;
+	padding: 12px 0 0 20px;
+}
+
+li#day {
+	list-style:none;
+}
+
+li#headers {
+	height:auto;
+	list-style:none;
+	text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+li#dates {
+	list-style:none;
+}
+
+li#headers li {
+	width:6em;
+	height:auto;
+	float:left;
+	margin:.2em;
+	padding:.2em;
+	overflow:auto;
+	border-style: solid;
+	border-color: transparent;
+  border-width: 2px;
+}
+
+/* days */
+li li.day {
+	float:left;
+	overflow:auto;
+}
+
+li li.day p {
+	width:6em;
+	height:6em;
+	border-style: solid;
+  border-width: 2px;
+  margin:.2em;
+	padding:.2em;
+  overflow:auto;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+li li.day p:hover {
+	border-color: LightSkyBlue;
+  background: rgb(135, 206, 250); /* Fallback */
+  background: rgba(135, 206, 250, 0.5);
+}
+
+li a li.day {
+	color: white;
+}
+
+li.day a {
+	color: white;
+	text-decoration: none;
+}
+
+li.day p {
+	border-color: white;
+}
+
+li li.day a:visited p {
+	border-color: dimgray;
+	color: white;
+}
+
+/* day content */
+li li.day ol {
+	width:auto;
+}
+
+li li ul li,
+li li ol li {
+	font-size:.7em;
+	display:block;
+	height:auto;
+	width:auto;
+	background: none;
+	margin:0;
+	padding:.2em 0;
+	float:none;
+}
