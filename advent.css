@@ -145,12 +145,14 @@ li li.day p {
 	padding:.2em;
   overflow:auto;
   text-shadow: 2px 2px 4px #000000;
+  background: rgb(135, 206, 250); /* Fallback */
+  background: rgba(135, 206, 250, 0.5);
 }
 
 li li.day p:hover {
 	border-color: LightSkyBlue;
   background: rgb(135, 206, 250); /* Fallback */
-  background: rgba(135, 206, 250, 0.5);
+  background: rgba(135, 206, 250, 0.1);
 }
 
 li a li.day {
